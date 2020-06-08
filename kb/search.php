@@ -1,5 +1,10 @@
-<?php 
+<?php
 session_start();
+if($_SESSION['loggedIn']!=true)
+{
+    header("Location: login.php");
+}
+
 ?>
 <?php include "header/header.php" ?>
 <?php include "pageGenerator.php" ?>

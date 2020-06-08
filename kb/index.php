@@ -1,5 +1,10 @@
 <?php
 session_start();
+if($_SESSION['loggedIn']!=true)
+{
+    header("Location: login.php");
+}
+
 ?>
 <?php include "header/header.php" ?>
 <?php include "Styles/ArticleColor.php" ?>
@@ -57,6 +62,7 @@ echo"</section>";
 		echo "<br>";
 	}
 }
-?>
 
+?>
+<?php include "footer/footer.html" ?>
 

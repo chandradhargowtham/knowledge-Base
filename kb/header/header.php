@@ -36,7 +36,9 @@
 
                 <div class="navbar-collapse justify-content-md-center collapse" id="navbar">
                     <ul class="navbar-nav">
-                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="bookmarks.php">Bookmarks</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="articles.php">Articles</a>
                         </li>

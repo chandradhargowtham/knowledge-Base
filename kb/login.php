@@ -14,7 +14,7 @@ if (isset($_POST['submit']))
 			$_SESSION['loggedIn']=true;
 			$_SESSION['User']=$userName;
 			$_SESSION['password']=md5($password);
-			header("Location: admintools.php");
+			header("Location: index.php");
 			echo "Login Successful.";
 		}else
 		{
