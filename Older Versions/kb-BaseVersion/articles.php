@@ -7,25 +7,36 @@ if($_SESSION['loggedIn']!=true)
 
 ?>
 <?php include "header/header.php" ?>
-<?php include "Styles/ArticleColor.php" ?>
 <?php include "pageGenerator.php" ?>
+<?php include "Styles/ArticleColor.php" ?>
+
 <html>
-<title>Home</title>
-<!--<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">-->
-<link href="style.css" type = "text/css" rel="stylesheet">
-</html>
+<title>Articles</title>
+<style>
+#articlesheader {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #000000;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 40px #00000040;
+    opacity: 1;
+}
+</style>
 <?php 
-echo "<br>";
+
 
 echo "<section id=articlessection>";
-echo "<h1 id=articlesheader></h1>";
+echo "<h1 id=articlesheader>Articles</h1>";
 
 
 $dir = "/articles/";
 $a=scandir("articles/");
 
-for($i=2;$i<5;$i++)
+for($i=2;$i<9999;$i++)
 {
 	if(empty($a[$i]))
 {
@@ -62,7 +73,7 @@ echo"</section>";
 		echo "<br>";
 	}
 }
-
 ?>
-<?php include "footer/footer.html" ?>
+</html>
+
 

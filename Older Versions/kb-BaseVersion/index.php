@@ -16,7 +16,7 @@ if($_SESSION['loggedIn']!=true)
 <link href="style.css" type = "text/css" rel="stylesheet">
 </html>
 <?php 
-echo "<br>";
+
 
 echo "<section id=articlessection>";
 echo "<h1 id=articlesheader></h1>";

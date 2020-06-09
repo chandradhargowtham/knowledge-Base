@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body
+{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #f4f4f4;
+	max-width: 100%; !important;
+  margin: auto;
+  
+  
+}
+
+
+textarea {
+  
+  width: 80%;
+  height: 350px;
+  	
+	
+}
+
+.header
+{
+	max-width: 100%;
+  margin: auto;
+}
+.footer
+{
+	max-width: 100%;
+}
+pre {
+    white-space: -moz-pre-wrap; /* Mozilla, supported since 1999 */
+    white-space: -pre-wrap; /* Opera */
+    white-space: -o-pre-wrap; /* Opera */
+    white-space: pre-wrap; /* CSS3 - Text module (Candidate Recommendation) http://www.w3.org/TR/css3-text/#white-space */
+    word-wrap: break-word; /* IE 5.5+ */
+    max-width: 100%;
+    margin: auto;
+    background-color: red;
+}
+.article
+{
+  background-color: #222222;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  text-align: center;
+  max-width: 60%;
+  
+}
+.article:hover
+{
+  background-color: #222222;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #fdd809;
+}
+.article>a
+{
+  text-decoration: none;
+  color:black;
+  background-color: #fdd809;
+  padding: 10px;
+  
+}
+.article>a:hover
+{
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  padding: 10px;
+
+}
+.article>p
+{
+  -webkit-text-size-adjust:80%;
+  padding: 20px;
+  margin: 10px;
+  color:white;
+}
+.article>.category
+{
+  -webkit-text-size-adjust:80%;
+  padding: 5px;
+  margin: -10px;
+  color: black;
+  background-color: #fdd809;
+  font-size: 0.9em;
+  font-weight: bold;
+  
+}
+img
+{
+  height: auto;
+}
+#bannerQuote
+{
+  
+  font-size: 30px;
+   position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+@media  max-width: 300px {
+  #bannerQuote {
+    font-size: 15px;
+    color:red;
+     position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  }
+}

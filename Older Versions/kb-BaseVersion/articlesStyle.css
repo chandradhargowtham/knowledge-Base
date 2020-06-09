@@ -1,0 +1,24 @@
+p
+{
+	width: 70%;
+	text-align: left;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+h1
+{
+	text-align: center;
+	background-color: black;
+	padding:  20px;
+	color: white;
+}
+textarea
+{
+	width: 80%;
+}
+img
+{
+	max-width: 100%;
+  height: auto;
+	
+}

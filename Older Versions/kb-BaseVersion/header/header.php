@@ -45,12 +45,8 @@
                         <li class="nav-item">
                             <a class="nav-link" href="search.php">Search</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="createNotes.php">Notes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="upload.php">Upload</a>
-                        </li>
+                        
+                        
                         <?php
                         if ($_SESSION['loggedIn']==true) {
                             
